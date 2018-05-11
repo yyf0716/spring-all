@@ -13,7 +13,7 @@ import com.yyf.springcloud.entities.Dept;
 @RestController
 public class DeptController_Consumer {
 
-	private static final String rest_url_prefix = "http://localhost:8001";
+	private static final String rest_url_prefix = "http://MICROSERVICECLOUD-DEPT";
 
 	@Autowired
 	private RestTemplate restTemplate;
