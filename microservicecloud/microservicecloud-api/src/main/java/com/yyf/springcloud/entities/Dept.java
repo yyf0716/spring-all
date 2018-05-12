@@ -22,7 +22,7 @@ public class Dept implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 
-	private int deptno;
+	private Long deptno;
 	private String dname;
 	private String db_source;
 
